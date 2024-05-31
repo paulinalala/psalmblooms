@@ -1,0 +1,105 @@
+
+header{
+    background: transparent;
+    color: #000;
+}
+
+.home{
+    display: flex;
+    align-items: center;
+    justify-content:safe;
+    min-height: 100vh;
+    background:url(pastelbg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.home .wrapper{
+    position:  relative;
+    width: 400px;
+    height: 440px;
+    background: transparent;
+    border: 2px solid rgba(255,255,255,.5);
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper .loginform{
+    width: 100%;
+    padding: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginform h2{
+    font-size: 5rem;
+    color: #162938;
+    text-align: center;
+}
+
+.inputbox{
+    position: relative;
+    width: 100%;
+    height: 55px;
+    border-bottom: 2px solid #162938;
+    margin: 30px 0;
+}
+
+.inputbox label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 1.4rem;
+    color: #162938;
+    font-weight: 500;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.inputobx input:focus~label,
+.inputbox input:valid~label {
+    top: -5px;
+}
+
+.inputbox .password label{
+    content: "Password";
+}
+
+.inputbox input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #162938;
+    font-weight: 600;
+    padding: 0 35px 0 5px;
+}
+
+.inputbox .icon{
+    position: absolute;
+    right: 8px;
+    font-size: 1.2rem;
+    color: #162938;
+    line-height: 57px;
+}
+
+#btnLogIn{
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius: 5rem;
+    background: #333;
+    color: #fff;
+    padding: .9rem 3.5rem;
+    cursor: pointer;
+    font-size: 1.7rem;
+}
+
+#btnLogIn:hover{
+    background: var(--pink);
+}

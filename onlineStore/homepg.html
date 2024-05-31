@@ -1,0 +1,793 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flowerish</title>
+
+    <link rel="icon" type="image/png" href="psalmslogo.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <script src="javascript.js"></script>
+</body>
+</html>
+
+
+
+</head>
+<body>
+    <header>
+        
+        <input type="checkbox" name="" id="toggler">
+        <label for="toggler" class="fas fa-bars"></label>
+
+        <a href="#" class="logo">Psalm Blooms</a>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#products">products</a>
+            <a href="#contacts">contacts</a>
+        </nav>
+
+        <div class="icons">
+            
+            <a href="#shopping_cart" class="fas fa-shopping-cart" onclick="popup_cart()"></a>
+            <a href="https://www.instagram.com/psalmblooms/" class="fa-brands fa-instagram"></a>
+        </div>
+
+    </header>
+
+    <section class="home" id="home">
+        <div class="content">
+            <h3>Crocheted Flowers</h3>
+            <span>delicate blooms that bring a touch of timeless elegance</span>
+            <p> Each intricately crafted blossom is a unique expression of beauty and thoughtfulness. Perfect for adding a touch of handmade charm to any gift, our crocheted flowers are sure to delight and enchant.</p>
+            <a href="#products" class="btn">shop now</a>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+
+        <h1 class="title"><span> about </span> us </h1>
+
+        <div class="row">
+
+            
+
+            <div class="content">
+                <h3> Welcome to Chloris! </h3>
+                <p>At this flower haven, we are passionate about the artistry and elegance of crochet flowers. Nestled in the heart of our digital oasis, you'll discover a vibrant community dedicated to celebrating the beauty and creativity of crochet floral designs.</p>
+            
+                <h3> Our Story </h3>
+                <p>Like delicate blooms unfurling in the morning light, our journey began with a single thread and a vision. Inspired by the timeless charm and versatility of crochet, we embarked on a mission to cultivate a space where enthusiasts, novices, and experts alike could come together to share their love for this intricate craft.</p>
+                
+                <div class="explore">
+                    <h3> Explore our collection</h3>
+                    <p class="showed">Step into a world of enchantment with our diverse range of crocheted flower products, each one a masterpiece of creativity and skill</p>
+                    <span class="dots">...</span>
+                    <p class="more">From delicate roses to vibrant sunflowers, our collection offers something for every taste and occasion. Every crocheted flower in our collection is lovingly handcrafted by skilled artisans, ensuring impeccable quality and attention to detail. Each petal is carefully stitched with precision, resulting in a breathtakingly beautiful bloom that will stand the test of time.</p>
+
+                    <input type="checkbox" id="btn"/>
+                    <label for="btn"></label>
+                </div>
+
+        
+            </div>
+
+            <div class="content">
+                
+                    <h3> Why Choose us? </h3>
+                    <ol><b>Exquisite Craftsmanship:</b> Our crocheted flowers are meticulously handcrafted with precision and care, ensuring unmatched beauty and quality.</ol>
+                    <ol><b>Unique Selection :</b>Discover a curated collection of one-of-a-kind designs that add a touch of elegance and charm to any occasion.</ol>
+                    <ol><b>Personalized Service: </b>We offer customization options to tailor your crocheted flowers to your exact specifications, making every purchase uniquely yours.</ol>
+                    <ol><b>Fast Shipping: </b>Enjoy prompt and reliable shipping services, so you can start enjoying your crocheted flowers without delay.</ol>
+                    <ol><b>Passion for Customer Satisfaction: </b>Your happiness is our priority. Count on us for exceptional customer service and support every step of the way.</ol>
+                
+                </div>
+            </div>
+
+
+            
+
+        </div>
+
+    </section>
+    
+    <section class="products" id="products">
+        <h1 class="title"> Newest <span> Items </span></h1>
+        <div class="itemContainer">
+            
+            <div class="container">
+
+                <a href="#sunflower" class="piece"></a>
+
+                <div class="image">
+                    <img src="byPieceproducts/reduced/sunflowerr.jpg">
+                    <div class="icons">
+                        <a href="#sunflower" class="fas fa-heart"></a>
+                        <a href="#sunflower" class="cart-btn" onclick="displayProduct(sunflower)">add to basket</a>
+                        <a href="#sunflower" class="fas fa-heart"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3> 1 pc. Sunflower</h3>
+                    <div class="price"> P77.00 <span> P89 </span></div>
+                    
+                </div>
+            </div>
+
+            <div class="container">
+
+                <a href="#tulip" class="piece"></a>
+
+                <div class="image">
+                    <img src="byPieceproducts/reduced/tulipp.jpg">
+                    <div class="icons">
+                        <a href="#tulip" class="fas fa-heart"></a>
+                        <a href="#tulip" class="cart-btn" onclick="displayProduct(tulip)">add to basket</a>
+                        <a href="#tulip" class="fas fa-heart"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3> 1 pc. Tulip </h3>
+                    <div class="price"> P50.00 <span> P69.00 </span></div>
+                    
+                </div>
+            </div>
+
+            <div class="container">
+
+                <a href="#rose" class="piece"></a>
+
+                <div class="image">
+                    <img src="byPieceproducts/reduced/rosee.jpg">
+                    <div class="icons">
+                        <a href="#rose" class="fas fa-heart"></a>
+                        <a href="#rose" class="cart-btn" onclick="displayProduct(rosee)">add to basket</a>
+                        <a href="#rose" class="fas fa-heart"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3> 1 pc. Rose </h3>
+                    <div class="price"> P66.00 <span> P99.00 </span></div>
+                    
+                </div>
+            </div>
+
+            <div class="container">
+
+                <a href="#daisy" class="piece"></a>
+
+                <div class="image">
+                    <img src="byPieceproducts/reduced/daisyy.jpg">
+                    <div class="icons">
+                        <a href="#daisy" class="fas fa-heart"></a>
+                        <a href="#daisy" class="cart-btn" onclick="displayProduct(daisy)">add to basket</a>
+                        <a href="#daisy" class="fas fa-heart"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3> 3 pcs. Daisy </h3>
+                    <div class="price"> P56.00 <span> P74.00 </span></div>
+                    
+                </div>
+            </div>
+
+            <div class="container">
+
+                <a href="#waterlily" class="piece"></a>
+
+                <div class="image">
+                    <img src="byPieceproducts/reduced/waterlilyy.jpg">
+                    <div class="icons">
+                        <a href="#waterlily" class="fas fa-heart"></a>
+                        <a href="#waterlily" class="cart-btn" onclick="displayProduct(waterlily)">add to basket</a>
+                        <a href="#waterlily" class="fas fa-heart"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3> 1 pc. Waterlily </h3>
+                    <div class="price"> P80.00 <span> P110.00 </span></div>
+                    
+                </div>
+            </div>
+
+            <div class="container">
+
+                <a href="#forgetmenot" class="piece"></a>
+
+                <div class="image">
+                    <img src="byPieceproducts/reduced/forgetmenot.jpg">
+                    <div class="icons">
+                        <a href="#forgetmenot" class="fas fa-heart"></a>
+                        <a href="#forgetmenot" class="cart-btn" onclick="displayProduct(forgetmenot)">add to basket</a>
+                        <a href="#forgetmenot" class="fas fa-heart"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3> 1 stem Forget-me-not </h3>
+                    <div class="price"> P49.00 <span> P58.00 </span></div>
+                    
+                </div>
+            </div>
+
+            <div class="container">
+
+                <a href="#" class="piece"></a>
+
+                <div class="image">
+                    <img src="byPieceproducts/reduced/lavenderr.jpg">
+                    <div class="icons">
+                        <a href="#lavender" class="fas fa-heart"></a>
+                        <a href="#lavender" class="cart-btn" onclick="displayProduct(lavender)">add to basket</a>
+                        <a href="#lavender" class="fas fa-heart"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3> 2 pcs. Lavender </h3>
+                    <div class="price"> P60.00 <span> P78.00 </span></div>
+                    
+                </div>
+            </div>
+
+            <div class="container">
+
+                <a href="#bqtsunflower" class="bqt"></a>
+
+                <div class="image">
+                    <img src="bouquet/reduced/bqtsunflower.jpg">
+                    <div class="icons">
+                        <a href="#bqtsunflower" class="fas fa-heart"></a>
+                        <a href="#bqtsunflower" class="cart-btn" onclick="displayProduct(bqtsunflower)">add to basket</a>
+                        <a href="#bqtsunflower" class="fas fa-heart"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3> Sun flower bouquet </h3>
+                    <div class="price"> P130.00-P440.00 </div>
+                    
+                </div>
+            </div>
+
+            <div class="container">
+
+                <a href="#bqttulip" class="bqt"></a>
+
+                <div class="image">
+                    <img src="bouquet/reduced/bqttulip.jpg">
+                    <div class="icons">
+                        <a href="#bqttulip" class="fas fa-heart"></a>
+                        <a href="#bqttulip" class="cart-btn" onclick="displayProduct(bqttulip)">add to basket</a>
+                        <a href="#bqttulip" class="fas fa-heart"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3> Tulip bouquet </h3>
+                    <div class="price"> P110.00-P370.00 </div>
+                    
+                </div>
+            </div>
+
+            <div class="container">
+
+                <a href="#bqtrose" class="bqt"></a>
+
+                <div class="image">
+                    <img src="bouquet/reduced/bqtrose.jpg">
+                    <div class="icons">
+                        <a href="##bqtrose" class="fas fa-heart"></a>
+                        <a href="#bqtrose" class="cart-btn" onclick="displayProduct(bqtrose)">add to basket</a>
+                        <a href="##bqtrose" class="fas fa-heart"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3> Rose bouquet </h3>
+                    <div class="price"> P120.00-P410.00 </div>
+                    
+                </div>
+            </div>
+
+            <div class="container">
+
+                <a href="#bqtdaisy" class="bqt"></a>
+
+                <div class="image">
+                    <img src="bouquet/reduced/bqtdaisy.jpg">
+                    <div class="icons">
+                        <a href="#bqtdaisy" class="fas fa-heart"></a>
+                        <a href="#bqtdaisy" class="cart-btn" onclick="displayProduct(bqtdaisy)">add to basket</a>
+                        <a href="#bqtdaisy" class="fas fa-heart"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3> Daisy bouquet </h3>
+                    <div class="price"> P100-P340.00 </div>
+                    
+                </div>
+            </div>
+
+            <div class="container">
+                <a href="#bqtwaterlily" class="bqt"></a>
+                <div class="image">
+                    <img src="bouquet/reduced/bqtwaterlily.jpg">
+                    <div class="icons">
+                        <a href="#bqtwaterlily" class="fas fa-heart"></a>
+                        <a href="#bqtwaterlily" class="cart-btn" onclick="displayProduct(bqtwaterlily)">add to basket</a>
+                        <a href="#bqtwaterlily" class="fas fa-heart"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3> Waterlily bouquet </h3>
+                    <div class="price"> P140.00-P490.00 </div>
+                    
+                </div>
+            </div>
+
+            <div class="container">
+                <a href="#bqtlavender" class="bqt"></a>
+                <div class="image">
+                    <img src="bouquet/reduced/bqtlavender.jpg">
+                    <div class="icons">
+                        <a href="#bqtlavender" class="fas fa-heart"></a>
+                        <a href="#bqtlavender" class="cart-btn" onclick="displayProduct(bqtlavender)">add to basket</a>
+                        <a href="#bqtlavender" class="fas fa-heart"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3> Lavender bouquet </h3>
+                    <div class="price"> P100.00-P340.00 </div>
+                    
+                </div>
+            </div>
+
+            <div class="container">
+                <a href="#bundle1" id="bundle1"></a>
+                <div class="image">
+                    <img src="specialbundles/reduced/bundle1.jpg">
+                    <div class="icons">
+                        <a href="#bundle1" class="fas fa-heart"></a>
+                        <a href="#bundle1" class="cart-btn" onclick="displayProduct(bundle1)">add to basket</a>
+                        <a href="#bundle1" class="fas fa-heart"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3> Aphrodite's Flowers </h3>
+                    <div class="price"> P300.00 <span> P350.00 </span></div>
+                    
+                </div>
+            </div>
+
+            <div class="container">
+                <a href="#bundle2" id="bundle2"></a>
+                <div class="image">
+                    <img src="specialbundles/reduced/bundle2.jpg">
+                    <div class="icons">
+                        <a href="#bundle2" class="fas fa-heart"></a>
+                        <a href="#bundle2" class="cart-btn" onclick="displayProduct(bundle2)">add to basket</a>
+                        <a href="#bundle2" class="fas fa-heart"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3> Blue Series Bouquet </h3>
+                    <div class="price"> P250.00 <span> P299.00 </span></div>
+                    
+                </div>
+            </div>
+
+            <div class="container">
+                <a href="#bundle3" id="bundle3"></a>
+                <div class="image">
+                    <img src="specialbundles/reduced/bundle3.jpg">
+                    <div class="icons">
+                        <a href="#bundle3" class="fas fa-heart"></a>
+                        <a href="#bundle3" class="cart-btn" onclick="displayProduct(bundle3)">add to basket</a>
+                        <a href="#bundle3" class="fas fa-heart"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3> Pink Series Bouquet </h3>
+                    <div class="price"> P270.00 <span> P319.00 </span></div>
+                    
+                </div>
+            </div>
+
+            <div class="container">
+                <a href="#bundle4" id="bundle4"></a>
+                <div class="image">
+                    <img src="specialbundles/reduced/bundle4.jpg">
+                    <div class="icons">
+                        <a href="#bundle4" class="fas fa-heart"></a>
+                        <a href="#bundle4" class="cart-btn" onclick="displayProduct(bundle4)">add to basket</a>
+                        <a href="#bundle4" class="fas fa-heart"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3> Purple Series Bouquet </h3>
+                    <div class="price"> P280.00 <span> P329.00 </span></div>
+                    
+                </div>
+            </div>
+
+            <div class="container">
+                <a href="#bundle5" id="bundle5"></a>
+                <div class="image">
+                    <img src="specialbundles/reduced/bundle5.jpg">
+                    <div class="icons">
+                        <a href="#bundle5" class="fas fa-heart"></a>
+                        <a href="#bundle5" class="cart-btn" onclick="displayProduct(bundle5)">add to basket</a>
+                        <a href="#bundle5" class="fas fa-heart"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3> Red Tulips Bouquet </h3>
+                    <div class="price"> P200.00 <span> P249.00 </span></div>
+                    
+                </div>
+            </div>
+
+            <div class="container">
+                <a href="#bundle6" id="bundle6"></a>
+                <div class="image">
+                    <img src="specialbundles/reduced/bundle6.jpg">
+                    <div class="icons">
+                        <a href="#bundle6" class="fas fa-heart"></a>
+                        <a href="#bundle6" class="cart-btn" onclick="displayProduct(bundle6)">add to basket</a>
+                        <a href="#bundle6" class="fas fa-heart"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3> Big Roses Bouquet </h3>
+                    <div class="price"> P320.00 <span> P379.00 </span></div>
+                    
+                </div>
+            </div>
+
+            <div class="container">
+                <a href="#specialEd" id="specialEd"></a>
+                <div class="image">
+                    <img src="limitedEdition/reduced/SunflowerDrop.jpg">
+                    <div class="icons">
+                        <a href="#specialEd" class="fas fa-heart"></a>
+                        <a href="#specialEd" class="cart-btn" onclick="displayProduct(specialEd)">add to basket</a>
+                        <a href="#specialEd" class="fas fa-heart"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3> Rapunzel's Origin </h3>
+                    <div class="price"> P350.00 <span> P499.00 </span></div>
+                    
+                </div>
+            </div>
+
+            <div class="container">
+                <a href="#specialEd1" id="specialEd1"></a>
+                <div class="image">
+                    <img src="byPieceproducts/bunny.jpg">
+                    <div class="icons">
+                        <a href="#specialEd1" class="fas fa-heart"></a>
+                        <a href="#specialEd1" class="cart-btn" onclick="displayProduct(specialEd1)">add to basket</a>
+                        <a href="#specialEd1" class="fas fa-heart"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3> Bunnified Flower </h3>
+                    <div class="price"> P150.00 <span> P199.00 </span></div>
+                    
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+
+
+
+
+<!-- Add to Cart Section -->
+
+<section class="product_cart" id="product_cart">
+
+    <div class="cart_container">
+
+        <div class="row">
+
+            <div class="img_holder">
+                <img class="add_to_cart_img" id="product_img" src="" alt="Chloris Product">
+            </div>
+
+            <div class="product_display">
+                <h1 id="product_name"></h1>
+    
+                <a id="close_toggle" onclick="toggle_remove()">
+                    <span class="fa-solid fa-xmark"></span>
+                </a>
+                <hr>
+    
+                <p class="desc_product"><b>Description: </b></p>
+                <p id="product_desc"> </p>
+    
+                <table border="0">
+                    <tr>
+                        <td class="label"><b>Price: </b></td>
+                        <td class="price" id="price"></td>
+                    </tr>
+                    <tr>
+                        <td class="label"><b>Voucher: </b></td>
+                        <td id="shop_voucher"></td>
+                    </tr>
+                    <tr>
+                        <td class="label"><b>Color: </b></td>
+                        <td id="color"></td>
+                    </tr>
+
+                    <tr>
+                        <td class="label"><b>Inclusions: </b></td>
+                        <td id="inclusions"></td>
+                    </tr>
+                    <tr>
+                        <td class="label"><b>Quantity: </b></td>
+                        <td class="qty">
+                            <input type="number" id="quantity" name="quantity" min="1" value="1" required/>
+                        </td>
+                    </tr>
+
+                    <tr id="bundle_row" class="bundle_row">
+                        <td class="label"><b>Bundle Quantity: </b></td>
+                        <td class="qty">
+                            <div class="radio-buttons">
+                                <label class="bundle-label">
+                                    <input type="radio" id="bundleof3" name="bundle_quantity" onchange="updatePrice()">
+                                    <span>3 pieces</span>
+                                </label>
+                                <br>
+                                <label class="bundle-label">
+                                    <input type="radio" id="bundleof6" name="bundle_quantity" onchange="updatePrice()">
+                                    <span>6 pieces</span>
+                                </label>
+                                <br>
+                                <label class="bundle-label">
+                                    <input type="radio" id="bundleof9" name="bundle_quantity" onchange="updatePrice()">
+                                    <span>9 pieces</span>
+                                </label>
+                                <br>
+                                <label class="bundle-label">
+                                    <input type="radio" id="bundleof12" name="bundle_quantity" onchange="updatePrice()">
+                                    <span>12 pieces</span>
+                                </label>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        
+                    </tr>
+                </table>
+                
+            <div class="row">
+                
+            </div>
+
+            <div class="button-container">
+                <button id="add_to_cart" onclick="add_to_cart()">Add to Cart</button>
+                <button id="buy_now" onclick="buy_now()">Buy now</button>
+            </div>
+    
+            </div>
+
+        </div>
+
+    
+    </div>
+    
+</section>
+
+<!-- End of Add to Cart Section -->
+
+<div class="overlay"></div>
+
+<!-- Shopping Cart Section -->
+
+<section class="shopping_cart" id="shopping_cart">
+	<div class="order_container">
+		<h1 id="shop_title">Your Shopping Cart</h1>
+
+        <a id="close_toggle" onclick="remove_cart()">
+            <span class="fa-solid fa-xmark"></span>
+        </a>
+		<hr>
+        
+        <div class="cartCheckOut_Last">
+            <img class="imgcart" id="imgcart" src="">
+        </div>
+
+		<h2> Cart items:</h2>
+		<table border = "0" id ="item_list"></table>
+		
+   		<p class="total_price"> Total: <span id="total_price"> 0.00 </span></p>
+        <br>
+
+		<button id="check_out" onclick="go_to_next()">Check Out</button>
+	</div>
+</section>
+
+<div class="overlay_sc"></div>
+
+<!-- End of Shopping Cart Section -->
+
+<!-- Place Order Section -->
+
+<section class="place_order" id="place_order">
+    <div class="deliver_info">
+        <a href="#" onclick="back_to_cart()">
+            <span class="fas fa-backward"></span>
+        </a>
+
+        <div class="sub_title">
+            <span class="fas fa-search-location"></span>
+            <h1>Delivery Information</h1>
+        </div>
+
+        <form>
+            <table border="0">
+                <tr>
+                    <td colspan="2" class="input_center">
+                        <label for="full_name">Full Name:</label>
+                        <input type="text" id="full_name" name="full_name" value="" placeholder="Name" required/>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2" class="input_center">
+                        <label for="mobile_num">Mobile Number:</label>
+                        <input type="number" id="mobile_num" name="mobile_num" value="" placeholder="(+63) 907 032 4570" required/>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2" class="input_center">
+                        <label for="address">Address:</label>
+                        <textarea id="address" placeholder="Your full address" required></textarea>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2" class="input_center">
+                        <label for="pay_method">Payment Option:</label>
+                        <select name="pay_method" id="pay_method" onchange="toggle_cardfields()">
+                            <option value="Cash_on_Delivery">Cash on Delivery</option>
+                            <option value="Card">Credit/Debit Card</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr id="name_on_card_row">
+                    <td colspan="2" class="input_center">
+                        <label for="name_on_card">Name on Card:</label>
+                        <input type="text" id="name_on_card" name="name_on_card" value="" placeholder="Name on Card" required/>
+                    </td>
+                </tr>
+
+                <tr id="card_num_row">
+                    <td colspan="2" class="input_center">
+                        <label for="card_num">Card Number:</label>
+                        <input type="number" id="card_num" name="card_num" value="" placeholder="Card Number" required/>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2" class="input_center">
+                        <textarea placeholder="Other instructions..."></textarea>
+                    </td>
+                </tr>
+            </table>
+
+            <button type="reset" id="place_order" onclick="display_success()">Place Order</button>
+        </form>
+    </div>
+</section>
+
+
+<!-- End of Place Order Section -->
+
+<div class="overlayc"></div>
+
+<!-- Display Successfully Ordered -->
+
+<section class="display_success" id="display_success">
+	<div class="message">
+		<span class="fas fa-check-circle"></span>
+		<h1 id="shop_title">Thank you!!</h1>
+		<h2>Your order has been successfully placed.</h2>
+		
+		<button id="okay" onclick="successfully_ordered()">Okay</button>
+	</div>
+</section>
+
+<!-- End of Transaction -->
+
+<div class="overlaycc"></div>
+
+
+
+
+<div class="contacts-container" id="contacts">
+    <div class="container-form">
+        <div class="info"> 
+            <h3 class="title">Stay connected with us!</h3>
+            <p class="text">
+                Get in touch with us for any inquiries, support, or feedback 
+                through our easy-to-use contact form.
+            </p>
+            <div class="info">
+                <div class="information">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <a href="https://www.google.com/maps/search/?api=1&query=Fort+Bonifacio,+Taguig,+Metro+Manila,+Philippines" target="_blank" title="Visit location">
+                        Fort Bonifacio, Taguig, Metro Manila, Philippines
+                    </a>
+                </div>
+                <div class="information">
+                    <i class="fa-solid fa-envelope"></i>
+                    <a href="mailto:serapion_pauline@plpasig.edu.ph" title="send email">
+                        serapion_pauline@plpasig.edu.ph
+                    </a>
+                </div>
+                <div class="information">
+                    <i class="fa-solid fa-phone"></i>
+                    <p>
+                        <a href="sms:+63950977043" title="send sms or make a call">
+                            +6395-097-7043
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="form">
+            <span class="circle one"></span>
+            <span class="circle two"></span>
+
+            <form id="contactForm">
+                <h3 class="contacts-title"> Contact Us</h3>
+                <div class="input-container">
+                    <input type="text" name="name" class="input"  value="" required/>
+                    <label for="name">Username</label>
+                    <span>Username</span>
+                </div>
+                <div class="input-container">
+                    <input type="text" name="email" class="input" value="" required/>
+                    <label for="email">Email</label>
+                    <span>Email</span>
+                    <span class="error-message"></span> <!-- Add this line -->
+                </div>
+                <div class="input-container">
+                    <input type="text" name="phone" class="input" value="" required/>
+                    <label for="phone">Phone</label>
+                    <span>Phone</span>
+                    <span class="error-message"></span> <!-- Add this line -->
+                </div>
+                <div class="input-container textarea">
+                    <textarea name="message" class="input" required></textarea>
+                    <label for="">Message</label>
+                    <span>Message</span>
+                    <span class="error-message"></span> <!-- Add this line -->
+                </div>
+                <button type="button" class="btn" id="sendButton" onclick="sendMessage()">Send</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+<div class="message-sent" id="message_sent">
+    <div class="container">
+        <h3> Your message has been sent! </h3>
+        <button onclick="hideMessage()">ok</button>
+    </div>
+</div>
+
+<script src="contacts.js"></script>
+
+
+</body>
+</html>
